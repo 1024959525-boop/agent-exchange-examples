@@ -1,0 +1,22 @@
+{
+  "name": "agent-exchange-examples",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dependency-free examples for an AI agent's first data and tool trade.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1024959525-boop/agent-exchange-examples.git"
+  },
+  "bugs": { "url": "https://github.com/1024959525-boop/agent-exchange-examples/issues" },
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "preview": "node --env-file=.env.local first-trade.mjs",
+    "trade": "node --env-file=.env.local first-trade.mjs --execute",
+    "sell": "node --env-file=.env.local seller.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "node scripts/verify-release.mjs",
+    "pack": "node scripts/pack.mjs"
+  }
+}

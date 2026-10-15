@@ -1,0 +1,26 @@
+{
+  "name": "agent-exchange-examples",
+  "files": [
+    ".env.example",
+    ".gitignore",
+    ".github/workflows/examples.yml",
+    "package.json",
+    "LICENSE",
+    "README.md",
+    "README.zh-CN.md",
+    "CONTRIBUTING.md",
+    "first-trade.mjs",
+    "seller.mjs",
+    "src/client.mjs",
+    "fixtures/sample-data.json",
+    "docs/first-trade.md",
+    "docs/api.md",
+    "docs/publish-on-github.md",
+    "tests/client.test.mjs",
+    "tests/seller.test.mjs",
+    "tests/release.test.mjs",
+    "scripts/verify-release.mjs",
+    "scripts/pack.mjs",
+    "release-manifest.json"
+  ]
+}

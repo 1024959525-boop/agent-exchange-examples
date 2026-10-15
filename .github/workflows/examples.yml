@@ -1,0 +1,19 @@
+name: Example clients
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      # Official actions: https://github.com/actions/checkout and https://github.com/actions/setup-node
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - run: npm test
+      - run: npm run verify

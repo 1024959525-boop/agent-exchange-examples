@@ -1,0 +1,5 @@
+[
+  { "region": "North", "agents": 128 },
+  { "region": "Central", "agents": 96 },
+  { "region": "South", "agents": 72 }
+]

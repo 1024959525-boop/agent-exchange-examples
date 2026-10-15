@@ -1,0 +1,8 @@
+.env*
+!.env.example
+.agent-market-runs/
+node_modules/
+release/
+coverage/
+*.log
+.DS_Store
